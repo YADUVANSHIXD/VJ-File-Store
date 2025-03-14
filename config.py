@@ -64,7 +64,7 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "cb6243bee96a21ea399e214f1484a7de46
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/https://t.me/How_to_open_movielink/19") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://yaduvanshi-botz.blogspot.com/2025/03/b4u-movies.html") # For More Information Check Video On Yt - 
@@ -83,7 +83,3 @@ else:
 URL = environ.get("URL", "")
 
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-    
