@@ -1,7 +1,3 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
-
 
 import re
 import os
@@ -22,7 +18,7 @@ API_ID = int(environ.get("API_ID", "29728878"))
 API_HASH = environ.get("API_HASH", "a961168f7807061e77e1fb39c3f6ef71")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://envs.sh/BVl.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7033385522 5294914915').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "B4U_filesBot") # without @
 PORT = environ.get("PORT", "8080")
@@ -67,7 +63,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/https://t.me/How_
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "https://yaduvanshi-botz.blogspot.com/2025/03/b4u-movies.html") # For More Information Check Video On Yt - 
+WEBSITE_URL = environ.get("WEBSITE_URL", https://yaduvanshi-botz.blogspot.com/2025/03/p.html") # For More Information Check Video On Yt - 
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
