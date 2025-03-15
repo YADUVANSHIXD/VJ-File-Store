@@ -9,11 +9,11 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 {file_caption}
+    CAPTION = """<b>📂 {file_name}
 
 ⚙️ sɪᴢᴇ : {file_size}
 
-✯ 𝖩𝗈𝗂𝗇➥ 「<a href="https://t.me/+-JNC-lsTB5IxZjg1">🍿𝗨𝗽𝗱𝗮𝘁𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹🍿</a>」 
+✯𝖩𝗈𝗂𝗇➥<a href="https://t.me/+-JNC-lsTB5IxZjg1">🍿𝗨𝗽𝗱𝗮𝘁𝗲 𝗰𝗵𝗮𝗻𝗻𝗲𝗹🍿</a> 
 •─────────★•🥰•★────────•</b>""" 
 
        
