@@ -18,7 +18,7 @@ API_ID = int(environ.get("API_ID", "29728878"))
 API_HASH = environ.get("API_HASH", "a961168f7807061e77e1fb39c3f6ef71")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/BVl.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://files.catbox.moe/x1xa53.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7033385522 5294914915').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "B4U_filesBot") # without @
 PORT = environ.get("PORT", "8080")
