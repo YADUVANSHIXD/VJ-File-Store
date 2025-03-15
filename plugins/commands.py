@@ -51,7 +51,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('📤Sʜᴀʀᴇ Nᴏᴡ📤', url='https://t.me/share/url?url=https://t.me/B4U_filesBot&text= Hello! Experience a bot that offers a File Store feature and unlimited Movies database. 🥰😅')
+            InlineKeyboardButton('📤Sʜᴀʀᴇ Nᴏᴡ📤', url='https://t.me/share/url?url=https://t.me/B4U_filesBot')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/YaduvanshiXsupport'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/YaduvanshiXbotz')
@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('📤Sʜᴀʀᴇ Nᴏᴡ📤', url='https://t.me/share/url?url=https://t.me/B4U_filesBot&text= Hello! Experience a bot that offers a File Store feature and unlimited Movies database. 🥰😅')
+            InlineKeyboardButton('📤Sʜᴀʀᴇ Nᴏᴡ📤', url='https://t.me/share/url?url=https://t.me/B4U_filesBot')
         ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/YaduvanshiXsupport'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/YaduvanshiXbotz')
