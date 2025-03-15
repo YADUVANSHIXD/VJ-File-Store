@@ -63,7 +63,7 @@ VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/https://t.me/How_
 WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", https://yaduvanshi-botz.blogspot.com/2025/03/p.html") # For More Information Check Video On Yt - 
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://yaduvanshi-botz.blogspot.com/2025/03/p.html") # For More Information Check Video On Yt - 
 
 # File Stream Config
 STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
