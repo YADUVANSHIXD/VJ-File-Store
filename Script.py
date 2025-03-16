@@ -9,7 +9,7 @@ class script(object):
 
 
     
-    CAPTION = """<b>📂 {file_name}
+    CAPTION = """<b>📂 {CAPTION}
 
 ⚙️ sɪᴢᴇ : {file_size}
 
